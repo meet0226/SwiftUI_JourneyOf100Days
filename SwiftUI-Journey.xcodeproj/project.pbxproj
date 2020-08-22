@@ -11,7 +11,7 @@
 		2743F53C24D30A36001B41A5 /* TextViewWithDifferentProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2743F53B24D30A36001B41A5 /* TextViewWithDifferentProperties.swift */; };
 		2743F53F24D30A84001B41A5 /* ImageViewWithDifferentProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2743F53E24D30A84001B41A5 /* ImageViewWithDifferentProperties.swift */; };
 		27511BA824ED63CA00B1C338 /* SegmentControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27511BA724ED63CA00B1C338 /* SegmentControlView.swift */; };
-		27511BAA24EE346200B1C338 /* ContactInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27511BA924EE346200B1C338 /* ContactInfo.swift */; };
+		27511BAA24EE346200B1C338 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27511BA924EE346200B1C338 /* Contact.swift */; };
 		27511BAC24EE758200B1C338 /* ContactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27511BAB24EE758200B1C338 /* ContactDetailView.swift */; };
 		277E29A424D1E2A50037989B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277E29A324D1E2A50037989B /* AppDelegate.swift */; };
 		277E29A624D1E2A50037989B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277E29A524D1E2A50037989B /* SceneDelegate.swift */; };
@@ -21,6 +21,7 @@
 		277E29B024D1E2A80037989B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277E29AE24D1E2A80037989B /* LaunchScreen.storyboard */; };
 		277E29BB24D1E2A80037989B /* SwiftUI_JourneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277E29BA24D1E2A80037989B /* SwiftUI_JourneyTests.swift */; };
 		277E29C624D1E2A80037989B /* SwiftUI_JourneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277E29C524D1E2A80037989B /* SwiftUI_JourneyUITests.swift */; };
+		27B1857C24F0C3B100488B6C /* ContactInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B1857B24F0C3B100488B6C /* ContactInfo.swift */; };
 		27D8FB4A24D1E51C00662354 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D8FB4924D1E51C00662354 /* TextView.swift */; };
 		27D8FB4E24D1E75400662354 /* WeeksOfSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D8FB4D24D1E75400662354 /* WeeksOfSwiftUI.swift */; };
 		27D8FB5124D1E7C200662354 /* Week.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D8FB5024D1E7C200662354 /* Week.swift */; };
@@ -48,7 +49,7 @@
 		2743F53B24D30A36001B41A5 /* TextViewWithDifferentProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewWithDifferentProperties.swift; sourceTree = "<group>"; };
 		2743F53E24D30A84001B41A5 /* ImageViewWithDifferentProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewWithDifferentProperties.swift; sourceTree = "<group>"; };
 		27511BA724ED63CA00B1C338 /* SegmentControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentControlView.swift; sourceTree = "<group>"; };
-		27511BA924EE346200B1C338 /* ContactInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfo.swift; sourceTree = "<group>"; };
+		27511BA924EE346200B1C338 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		27511BAB24EE758200B1C338 /* ContactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailView.swift; sourceTree = "<group>"; };
 		277E29A024D1E2A50037989B /* SwiftUI-Journey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Journey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		277E29A324D1E2A50037989B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +65,7 @@
 		277E29C124D1E2A80037989B /* SwiftUI-JourneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-JourneyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		277E29C524D1E2A80037989B /* SwiftUI_JourneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_JourneyUITests.swift; sourceTree = "<group>"; };
 		277E29C724D1E2A80037989B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27B1857B24F0C3B100488B6C /* ContactInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfo.swift; sourceTree = "<group>"; };
 		27D8FB4924D1E51C00662354 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		27D8FB4D24D1E75400662354 /* WeeksOfSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeksOfSwiftUI.swift; sourceTree = "<group>"; };
 		27D8FB5024D1E7C200662354 /* Week.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 		27511BA624ED638600B1C338 /* Segment Control View */ = {
 			isa = PBXGroup;
 			children = (
+				27B1857B24F0C3B100488B6C /* ContactInfo.swift */,
 				27511BA724ED63CA00B1C338 /* SegmentControlView.swift */,
 				27511BAB24EE758200B1C338 /* ContactDetailView.swift */,
 			);
@@ -206,7 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				27D8FB5024D1E7C200662354 /* Week.swift */,
-				27511BA924EE346200B1C338 /* ContactInfo.swift */,
+				27511BA924EE346200B1C338 /* Contact.swift */,
 			);
 			path = Structs;
 			sourceTree = "<group>";
@@ -347,8 +350,9 @@
 				27D8FB4A24D1E51C00662354 /* TextView.swift in Sources */,
 				277E29A424D1E2A50037989B /* AppDelegate.swift in Sources */,
 				27D8FB5124D1E7C200662354 /* Week.swift in Sources */,
-				27511BAA24EE346200B1C338 /* ContactInfo.swift in Sources */,
+				27511BAA24EE346200B1C338 /* Contact.swift in Sources */,
 				27D8FB4E24D1E75400662354 /* WeeksOfSwiftUI.swift in Sources */,
+				27B1857C24F0C3B100488B6C /* ContactInfo.swift in Sources */,
 				277E29A624D1E2A50037989B /* SceneDelegate.swift in Sources */,
 				274184A424D1ED020052C97D /* ImageView.swift in Sources */,
 				277E29A824D1E2A50037989B /* HomeView.swift in Sources */,

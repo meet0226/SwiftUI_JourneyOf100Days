@@ -1,5 +1,5 @@
 //
-//  ContactInfo.swift
+//  Contact.swift
 //  SwiftUI-Journey
 //
 //  Created by Kumar, Amit on 20/08/20.
@@ -13,19 +13,6 @@ struct Contact: Identifiable {
     let name: String
     let email: String
     let number: String
-}
-
-class ContactInfo: ObservableObject {
-    @Published var contacts: [Contact]
-
-    init(contacts: [Contact], selectedIndex: Int) {
-        switch selectedIndex {
-        case 0:
-            self.contacts = contacts.sorted(by: { $0.name < $1.name })
-        default:
-            self.contacts = contacts.sorted(by: { $0.email < $1.email })
-        }
-    }
 }
 
 let ContactInfoData =
