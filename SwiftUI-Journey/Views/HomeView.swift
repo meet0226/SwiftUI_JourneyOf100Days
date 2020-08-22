@@ -9,12 +9,12 @@
 import SwiftUI
 
 struct HomeView: View {
-    @ObservedObject var weeksOfSwiftUI = WeeksOfSwiftUI(weeks: weeksData)
+    var weeks = weeksData
 
     var body: some View {
         NavigationView {
             List {
-                ForEach (weeksOfSwiftUI.weeks) { week in
+                ForEach (weeks) { week in
                     WeekCell(week: week)
                 }
             }.navigationBarTitle("Weeks Of SwiftUI", displayMode: .inline)
@@ -36,6 +36,8 @@ struct WeekCell: View {
             return AnyView(TextView())
         case .imageView:
             return AnyView(ImageView())
+        case .segmentControlView:
+            return AnyView(SegmentControlView())
         }
     }
 }
