@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		270CD00E25037C250027B333 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270CD00D25037C250027B333 /* ForgotPasswordView.swift */; };
+		270CD0112503BA640027B333 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270CD0102503BA640027B333 /* String+Extension.swift */; };
+		2711457E250353FF000DAC94 /* LoginScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2711457D250353FF000DAC94 /* LoginScreenView.swift */; };
+		271145812503586C000DAC94 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271145802503586C000DAC94 /* LogoView.swift */; };
+		2711458325035892000DAC94 /* TitleAndSubtitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2711458225035892000DAC94 /* TitleAndSubtitleView.swift */; };
+		27114585250359B9000DAC94 /* UserTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27114584250359B9000DAC94 /* UserTextFieldView.swift */; };
+		2711458725035E15000DAC94 /* PasswordSecureTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2711458625035E15000DAC94 /* PasswordSecureTextView.swift */; };
+		2711458925037516000DAC94 /* LoginButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2711458825037516000DAC94 /* LoginButtonView.swift */; };
 		274184A424D1ED020052C97D /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274184A324D1ED020052C97D /* ImageView.swift */; };
 		2743F53C24D30A36001B41A5 /* TextViewWithDifferentProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2743F53B24D30A36001B41A5 /* TextViewWithDifferentProperties.swift */; };
 		2743F53F24D30A84001B41A5 /* ImageViewWithDifferentProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2743F53E24D30A84001B41A5 /* ImageViewWithDifferentProperties.swift */; };
@@ -45,6 +53,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		270CD00D25037C250027B333 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		270CD0102503BA640027B333 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		2711457D250353FF000DAC94 /* LoginScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenView.swift; sourceTree = "<group>"; };
+		271145802503586C000DAC94 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		2711458225035892000DAC94 /* TitleAndSubtitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleAndSubtitleView.swift; sourceTree = "<group>"; };
+		27114584250359B9000DAC94 /* UserTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTextFieldView.swift; sourceTree = "<group>"; };
+		2711458625035E15000DAC94 /* PasswordSecureTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSecureTextView.swift; sourceTree = "<group>"; };
+		2711458825037516000DAC94 /* LoginButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonView.swift; sourceTree = "<group>"; };
 		274184A324D1ED020052C97D /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		2743F53B24D30A36001B41A5 /* TextViewWithDifferentProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewWithDifferentProperties.swift; sourceTree = "<group>"; };
 		2743F53E24D30A84001B41A5 /* ImageViewWithDifferentProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewWithDifferentProperties.swift; sourceTree = "<group>"; };
@@ -96,6 +112,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		270CD00F2503BA550027B333 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				270CD0102503BA640027B333 /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2711457C250353BC000DAC94 /* Login Screen */ = {
+			isa = PBXGroup;
+			children = (
+				2711457F2503584F000DAC94 /* Login Screen UI elements  */,
+				2711457D250353FF000DAC94 /* LoginScreenView.swift */,
+			);
+			path = "Login Screen";
+			sourceTree = "<group>";
+		};
+		2711457F2503584F000DAC94 /* Login Screen UI elements  */ = {
+			isa = PBXGroup;
+			children = (
+				271145802503586C000DAC94 /* LogoView.swift */,
+				2711458225035892000DAC94 /* TitleAndSubtitleView.swift */,
+				27114584250359B9000DAC94 /* UserTextFieldView.swift */,
+				2711458625035E15000DAC94 /* PasswordSecureTextView.swift */,
+				270CD00D25037C250027B333 /* ForgotPasswordView.swift */,
+				2711458825037516000DAC94 /* LoginButtonView.swift */,
+			);
+			path = "Login Screen UI elements ";
+			sourceTree = "<group>";
+		};
 		2743F53A24D30A14001B41A5 /* Text View */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +193,7 @@
 		277E29A224D1E2A50037989B /* SwiftUI-Journey */ = {
 			isa = PBXGroup;
 			children = (
+				270CD00F2503BA550027B333 /* Extensions */,
 				27D8FB4F24D1E7A900662354 /* Structs */,
 				27D8FB4C24D1E74500662354 /* Class */,
 				27D8FB4B24D1E52300662354 /* Views */,
@@ -193,6 +240,7 @@
 				2743F53A24D30A14001B41A5 /* Text View */,
 				2743F53D24D30A61001B41A5 /* Image View */,
 				27511BA624ED638600B1C338 /* Segment Control View */,
+				2711457C250353BC000DAC94 /* Login Screen */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -346,18 +394,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				27511BAC24EE758200B1C338 /* ContactDetailView.swift in Sources */,
+				270CD0112503BA640027B333 /* String+Extension.swift in Sources */,
+				2711458325035892000DAC94 /* TitleAndSubtitleView.swift in Sources */,
 				2743F53C24D30A36001B41A5 /* TextViewWithDifferentProperties.swift in Sources */,
+				2711457E250353FF000DAC94 /* LoginScreenView.swift in Sources */,
+				27114585250359B9000DAC94 /* UserTextFieldView.swift in Sources */,
 				27D8FB4A24D1E51C00662354 /* TextView.swift in Sources */,
 				277E29A424D1E2A50037989B /* AppDelegate.swift in Sources */,
 				27D8FB5124D1E7C200662354 /* Week.swift in Sources */,
 				27511BAA24EE346200B1C338 /* Contact.swift in Sources */,
 				27D8FB4E24D1E75400662354 /* WeeksOfSwiftUI.swift in Sources */,
+				2711458925037516000DAC94 /* LoginButtonView.swift in Sources */,
 				27B1857C24F0C3B100488B6C /* ContactInfo.swift in Sources */,
 				277E29A624D1E2A50037989B /* SceneDelegate.swift in Sources */,
+				271145812503586C000DAC94 /* LogoView.swift in Sources */,
 				274184A424D1ED020052C97D /* ImageView.swift in Sources */,
 				277E29A824D1E2A50037989B /* HomeView.swift in Sources */,
 				27511BA824ED63CA00B1C338 /* SegmentControlView.swift in Sources */,
 				2743F53F24D30A84001B41A5 /* ImageViewWithDifferentProperties.swift in Sources */,
+				270CD00E25037C250027B333 /* ForgotPasswordView.swift in Sources */,
+				2711458725035E15000DAC94 /* PasswordSecureTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

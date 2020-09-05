@@ -38,6 +38,8 @@ struct WeekCell: View {
             return AnyView(ImageView())
         case .segmentControlView:
             return AnyView(SegmentControlView())
+        case .loginScreen:
+            return AnyView(LoginScreenView())
         }
     }
 }

@@ -14,6 +14,7 @@ enum WeekWiseViews: CaseIterable, Identifiable {
     case textView
     case imageView
     case segmentControlView
+    case loginScreen
 }
 
 struct Week : Identifiable {
@@ -25,5 +26,6 @@ struct Week : Identifiable {
 let weeksData = [
     Week(name: "Week 1: Text", weekView: .textView),
     Week(name: "Week 2: Image",  weekView: .imageView),
-    Week(name: "Week 4: Segment Control",  weekView: .segmentControlView)
+    Week(name: "Week 4: Segment Control",  weekView: .segmentControlView),
+    Week(name: "Week 5: Login Screen",  weekView: .loginScreen)
 ]
